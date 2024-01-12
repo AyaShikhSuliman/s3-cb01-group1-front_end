@@ -1,0 +1,7 @@
+ .dropdownItem:active {
+    background-color: #f54147 !important;
+}
+.formControl:focus {
+    border-color: #f54147 !important;
+    box-shadow: 0 0 0 0.25rem rgba(255, 0, 13, 0.336) !important;
+}

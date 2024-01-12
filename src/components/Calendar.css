@@ -1,0 +1,53 @@
+.fc-header-toolbar {
+justify-content: space-between;
+}
+
+.fc-header-toolbar .fc-center {
+text-align: center;
+}
+
+.fc-toolbar.fc-header-toolbar {
+margin-top: 10px;
+}
+
+.fc-button-group {
+margin-right: 10px;
+}
+
+.fc-daygrid-event {
+text-decoration: none !important;
+border: none !important;
+}
+.fc-daygrid-day-number{
+    text-decoration: none;
+    color: red;
+}
+.fc-prev-button, .fc-next-button {
+    border: none !important;
+    margin: 0.5px !important;
+}
+.fc-toolbar-title{
+    color:#dc3545 ;
+}
+.fc-col-header-cell-cushion{
+    text-decoration: none;
+    color:#dc3545 ;
+}
+.fc-col-header-cell-cushion:hover{
+    color: #dc3545;
+}
+.modal{
+    --bs-modal-width: 950px !important;
+}
+.modal th{
+    color: #dc3545;
+}
+.bb-light{
+    border-bottom: white;
+}
+.modal-footer{
+    border-top: none !important;
+}
+.v-hidden{
+    visibility: hidden;
+}

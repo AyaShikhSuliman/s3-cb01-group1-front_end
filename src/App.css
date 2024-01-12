@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ .form-check-input:checked
+{
+  background-color: red !important;
+}
+ .form-check-input:checked + .form-check-label::before {
+  background-color: red !important;
+  border-color: red !important;
+}
+
+ .form-check-input:focus + .form-check-label::before {
+  box-shadow: 0 0 0 0.2rem rgba(212, 12, 12, 0.25) !important;
+}
+.form-check-input:focus {
+  border-color: red !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(194, 12, 12, 0.25) !important;
+}
+.login{
+  background: url('./assets/imgs/login.png') center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+.login .login-card{
+  /* padding-top: 15px;
+  padding-bottom: 15px; */
+  background: rgba(0, 0, 0, 0.288);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.login .login-card .card-img{
+  border-radius: 0 !important;
+}
+.login .login-form{
+
+  margin: 0 auto;
+}
+.search-input{
+  width: 80%;
+  margin: 0 auto;
+}
+.search-input .form-control{
+  border-radius: 1.375rem !important;
+  padding-left: 20px;
+}
